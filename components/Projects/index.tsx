@@ -10,7 +10,7 @@ export default function Projects() {
             <h1 className={`text-3xl md:text-[40px] text-left  ${dm.className}`}>
               La Modelo
               <span className={`block text-base md:text-[18px] text-left ${cormorant.className}`}>
-                Durante el curso intensivo de fotografía en Madrid, tuve la oportunidad de trabajar con una modelo profesional en una variedad de escenarios. Estas imágenes son el resultado de ese proceso creativo, donde exploré diferentes técnicas de iluminación, composición, y dirección de modelos.
+                Durante el curso intensivo de fotografía en Madrid, tuve la oportunidad de trabajar con una modelo profesional en una variedad de escenarios. Estas imágenes son el resultado de ese proceso creativo, donde exploré diferentes técnicas de iluminación, composición, y dirección de modelos
               </span>
             </h1>
           </div>
