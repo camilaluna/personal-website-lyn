@@ -7,7 +7,7 @@ export default function Sobremi() {
     <div id='sobre-mi' className="about flex flex-col md:flex-row items-center justify-between mt-8 px-4 md:px-0">
       <div className="w-full md:w-auto md:flex-shrink-0 md:ml-20 mb-4 md:mb-0">
         <motion.div
-          className="relative w-full h-64 md:h-[350px] md:w-[350px]"
+          className="relative w-full h-96 md:h-[450px] md:w-[350px]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 5 }}
@@ -30,7 +30,7 @@ export default function Sobremi() {
       </div>
       <div className="w-full md:w-auto md:flex-shrink-0 md:mr-20">
         <motion.div
-          className="relative w-full h-64 md:h-[350px] md:w-[350px]"
+          className="relative w-full h-96 md:h-[450px] md:w-[350px]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 5 }}

@@ -48,8 +48,9 @@ export default function Projects() {
               className="h-full object-cover rounded-lg"
               src="/images/london1.jpg" 
               alt="london1" 
-              whileHover={{ scale: 1.2 }} 
-              whileTap={{ scale: 0.8 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 5 }}
             />
           </div>
           <div>
@@ -57,17 +58,19 @@ export default function Projects() {
               src="/images/madrid1.jpg" 
               alt="madrid1" 
               className="h-full object-cover rounded-lg"
-              whileHover={{ scale: 1.2 }} 
-              whileTap={{ scale: 0.8 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 5 }}
             />
           </div>
           <div>
             <motion.img 
-                src="/images/paris.jpg" 
-                alt="paris" 
-                className="h-full object-cover rounded-lg"
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.8 }}
+              src="/images/paris.jpg" 
+              alt="paris" 
+              className="h-full object-cover rounded-lg"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 5 }}
             />
           </div>
         </div>
@@ -93,39 +96,38 @@ export default function Projects() {
         </div>
       </section>
       <section>
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mt-8 px-4 sm:px-6 md:px-8">
-    <div className="flex justify-center md:justify-start">
-      <motion.img
-        className="rounded-lg"
-        src="/images/lyn6.jpg"
-        alt="lyn6"
-        width={450}
-        height={650}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 5 }}
-      />
-    </div>
-    <div className="text-center flex flex-col">
-      <h2 className={`text-xl sm:text-2xl md:text-[30px] ${dm.className} mb-4 sm:mb-6`}>
-        Experiencia
-      </h2>
-      <p className="text-sm sm:text-base md:text-[18px] text-center mt-2 sm:mt-4 px-2 sm:px-4">
-        Mis fotografías son más que simples imágenes. Viajo para ver y revelar la belleza del mundo y sus maravillas creadas por el hombre.
-      </p>
-    </div>
-    <div className="text-center">
-      <h2 className={`text-xl sm:text-2xl md:text-[30px] ${dm.className} mb-4`}>
-        Habilidades
-      </h2>
-      <ul className="list-disc list-inside px-4 sm:px-6">
-        <li className="text-sm sm:text-base md:text-[18px]">Fotografía callejera</li>
-        <li className="text-sm sm:text-base md:text-[18px]">Fotografía de viajes</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mt-8">
+          <div className="md:ml-20 justify-center ml-4 mr-4 ">
+            <motion.img
+              className="rounded-lg"
+              src="/images/lyn6.jpg"
+              alt="lyn6"
+              width={450}
+              height={450}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 5 }}
+            />
+          </div>
+          <div className="text-center flex flex-col">
+            <h2 className={`text-xl sm:text-2xl md:text-[30px] ${dm.className} mb-4 sm:mb-6`}>
+              Experiencia
+            </h2>
+            <p className="text-sm sm:text-base md:text-[18px] text-center mt-2 sm:mt-4 px-2 sm:px-4">
+              Mis fotografías son más que simples imágenes. Viajo para ver y revelar la belleza del mundo y sus maravillas creadas por el hombre.
+            </p>
+          </div>
+          <div className="text-center">
+            <h2 className={`text-xl sm:text-2xl md:text-[30px] ${dm.className} mb-4`}>
+              Habilidades
+            </h2>
+            <ul className="list-disc list-inside px-4 sm:px-6">
+              <li className="text-sm sm:text-base md:text-[18px]">Fotografía callejera</li>
+              <li className="text-sm sm:text-base md:text-[18px]">Fotografía de viajes</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

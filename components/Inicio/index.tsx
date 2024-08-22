@@ -14,6 +14,7 @@ export default function Inicio() {
         </div>
         <div className="flex-shrink-0 md:mr-20 flex justify-center md:justify-end">
           <motion.img
+          className='rounded-lg'
             src="/images/lyn1.png"
             alt="lyn1"
             width={450}
