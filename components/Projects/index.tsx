@@ -110,14 +110,14 @@ export default function Projects() {
             />
           </div>
           <div className="text-center flex flex-col">
-            <h2 className={`text-xl sm:text-2xl md:text-[30px] ${dm.className} mb-4 sm:mb-6`}>
+            <h2 className={`text-left ml-7 text-xl sm:text-2xl md:text-[30px] ${dm.className} mb-4 sm:mb-6`}>
               Experiencia
             </h2>
-            <p className="text-sm sm:text-base md:text-[18px] text-center mt-2 sm:mt-4 px-2 sm:px-4">
+            <p className="text-sm sm:text-base md:text-[18px] text-left mt-2 sm:mt-4 px-2 sm:px-4 ml-4">
               Mis fotografías son más que simples imágenes. Viajo para ver y revelar la belleza del mundo y sus maravillas creadas por el hombre.
             </p>
           </div>
-          <div className="text-center">
+          <div className="text-center mt-4">
             <h2 className={`text-xl sm:text-2xl md:text-[30px] ${dm.className} mb-4`}>
               Habilidades
             </h2>

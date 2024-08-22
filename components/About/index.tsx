@@ -1,4 +1,4 @@
-import { dm } from '@/app/font/fonts'
+import { cormorant, dm } from '@/app/font/fonts'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
@@ -26,7 +26,7 @@ export default function Sobremi() {
           <span className={`block text-3xl md:text-[40px] ${dm.className} mb-2 md:mb-4`}>Mi Vida y</span>
           <span className={`block text-3xl md:text-[40px] ${dm.className}`}>Mi Trabajo</span>
         </h1>
-        <p className='text-base md:text-lg mt-4'>Soy fotógrafa profesional. Si bien he incursionado en todo tipo de fotografía, mi verdadera pasión es capturar escenas y paisajes urbanos</p>
+        <p className={`ml-5 mr-5 text-base md:text-lg mt-4 ${cormorant.className}`}>Soy fotógrafa profesional. Si bien he incursionado en todo tipo de fotografía, mi verdadera pasión es capturar escenas y paisajes urbanos</p>
       </div>
       <div className="w-full md:w-auto md:flex-shrink-0 md:mr-20">
         <motion.div

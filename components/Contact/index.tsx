@@ -18,7 +18,7 @@ export default function Contact() {
                 transition={{ duration: 5 }}
             />
           </div>
-          <div className="text-center flex-grow mx-4">
+          <div className="text-center flex-grow mx-4 mb-20 mt-10">
             <h2 className={`text-2xl md:text-[30px] ${dm.className} text-center`}>
               Contáctame
             </h2>
