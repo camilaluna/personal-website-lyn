@@ -12,7 +12,7 @@ export default function Inicio() {
             <span className={`block text-base md:text-[18px] ${cormorant.className}`}>Fotógrafa Profesional</span>
           </h1>
         </div>
-        <div className="flex-shrink-0 md:mr-20 flex justify-center md:justify-end">
+        <div className="flex-shrink-0 md:mr-20 flex justify-center md:justify-end ml-4 mr-4">
           <motion.img
           className='rounded-lg'
             src="/images/lyn1.png"

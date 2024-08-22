@@ -1,6 +1,6 @@
 import { dm } from "@/app/font/fonts";
 import { motion } from "framer-motion";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaXTwitter, FaInstagram } from 'react-icons/fa6';
 
 export default function Contact() {
     return (
@@ -30,7 +30,7 @@ export default function Contact() {
                 <FaFacebook className="text-2xl text-blue-600 hover:text-blue-800" />
               </a>
               <a href="https://x.com/iampoooni" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <FaTwitter className="text-2xl text-blue-400 hover:text-blue-600" />
+                <FaXTwitter className="text-2xl text-black hover:text-blue-600" />
               </a>
               <a href="https://www.instagram.com/iampooni/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <FaInstagram className="text-2xl text-pink-600 hover:text-pink-800" />
